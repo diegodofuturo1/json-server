@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js.js",
   "scripts": {
-    "build": "node server.js"
+    "build": "vite build && node server.js",
+    "server": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/diegodofuturo1/json-server#readme",
   "dependencies": {
-    "json-server": "^0.17.1"
+    "json-server": "^0.17.1",
+    "vite": "^4.0.4"
   }
 }
