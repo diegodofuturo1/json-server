@@ -2,9 +2,9 @@
   "name": "json-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js.js",
   "scripts": {
-    "build": "json-server --watch database.json"
+    "build": "node server.js"
   },
   "repository": {
     "type": "git",
